@@ -21,7 +21,7 @@ function showMessage(response) {
 
     // Update text content and hide name message
     document.getElementById("question").textContent =
-      "The no button is just for visuals you don't have a choice";
+      "The no button is just for fancy you don't have a choice";
     document.getElementById("name").style.display = "none";
 
     // Optional: You can also add a timeout to reset the position after a few seconds
@@ -37,7 +37,7 @@ function showMessage(response) {
     yesMessage.textContent = "See you on the 14th babygirl😘😘";
     yesMessage.style.display = "block";
     yesMessage.style.fontStyle = "normal";
-    document.getElementsByClassName("image")[0].src = "images/dance.gif";
+    document.getElementsByClassName("image")[0].src = "images/hi.jpg";
 
     // Remove yes button
     document.getElementById("yesButton").remove();
